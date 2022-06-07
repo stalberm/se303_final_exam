@@ -34,4 +34,7 @@ class Count
   def letter
     beginning.size + middle.size + conclusion.size
   end
+
+  def period
+  end
 end
