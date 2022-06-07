@@ -12,3 +12,6 @@ def story
   conclusion = "And that was it."
   first + middle + conclusion
 end
+
+def middle
+end
