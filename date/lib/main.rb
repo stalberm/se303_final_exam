@@ -43,5 +43,8 @@ class Plants
   end
 end
 class Plot
-
+  def initialize(name)
+    @name = name
+    @plants = []
+  end
 end
