@@ -37,5 +37,8 @@ class Farm
 end
 
 class Plants
-
+  def initialize(name, height)
+    @name = name
+    @height = height
+  end
 end
