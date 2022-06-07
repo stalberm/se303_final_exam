@@ -20,9 +20,15 @@ def period_count(beginning, middle, conclusion)
 end
 
 class Count
+  
+  attr_reader :beginning, :middle, :conclusion
+
   def initialize(beginning, middle, conclusion)
     @beginning = beginning
     @middle = middle
     @conclusion = conclusion
+  end
+
+  def word
   end
 end
