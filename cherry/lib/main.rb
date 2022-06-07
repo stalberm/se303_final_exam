@@ -15,7 +15,12 @@ def total_and_smallest
   [total, smallest]
 end
 
-def total
+def total(data)
+  total = 0
+  data.each do |d|
+    total += d
+  end
+  return total
 end
 
 
