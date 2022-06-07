@@ -42,3 +42,6 @@ class Plants
     @height = height
   end
 end
+class Plot
+
+end
