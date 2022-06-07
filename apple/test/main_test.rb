@@ -4,7 +4,7 @@ require 'minitest/pride'
 require_relative '../lib/main'
 
 class MainTest < Minitest::Test
-  def test_main
+  def test_story
     expected =
       "Mr. Dursley was the director of a firm called Grunnings, which made drills." +
       "\n\n\n\n\n" +

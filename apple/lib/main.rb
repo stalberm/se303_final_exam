@@ -9,6 +9,6 @@ def story
   middle << "\n"
   middle << "\n"
   middle << "\n"
-  last = "And that was it."
-  return first + middle + last
+  conclusion = "And that was it."
+  first + middle + conclusion
 end
