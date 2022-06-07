@@ -14,4 +14,10 @@ def story
 end
 
 def middle
+  middle = ""
+  middle << "\n"
+  middle << "\n"
+  middle << "\n"
+  middle << "\n"
+  middle << "\n"
 end
