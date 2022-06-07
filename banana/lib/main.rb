@@ -36,5 +36,6 @@ class Count
   end
 
   def period
+    beginning.scan(/\./).size + middle.scan(/\./).size + conclusion.scan(/\./).size
   end
 end
