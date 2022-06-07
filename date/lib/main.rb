@@ -9,16 +9,9 @@ class Farm
 
   def initialize
     # Plants have a name and a height
-    corn = ["Sugar Baby", 3]
-    radish_1 = ["Red Boomer", 1]
-    radish_2 = ["Plump Pucker", 1]
-    cucumber = ["Green Lady", 2]
-    tomato = ["Dark Plump", 2]
-    beet_1 = ["Rainbow", 1]
-    beet_2 = ["Deep Darkness", 1]
     # Plots have a name and some plants
-    plot_a = ["Plot A", corn, radish_1, radish_2]
-    plot_b = ["Plot B", cucumber, tomato, beet_1, beet_2]
+    plot_a = ["Plot A", ["Sugar Baby", 3], ["Red Boomer", 1], ["Plump Pucker", 1]]
+    plot_b = ["Plot B", ["Green Lady", 2], ["Dark Plump", 2], ["Rainbow", 1], ["Deep Darkness", 1]]
     @plots = [plot_a, plot_b]
   end
 
