@@ -30,4 +30,8 @@ class Count
   def word
     beginning.split.size + middle.split.size + conclusion.split.size
   end
+
+  def letter
+
+  end
 end
