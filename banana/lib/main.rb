@@ -32,6 +32,6 @@ class Count
   end
 
   def letter
-
+    beginning.size + middle.size + conclusion.size
   end
 end
