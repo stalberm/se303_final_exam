@@ -34,5 +34,8 @@ class Farm
     end
     total
   end
+end
+
+class Plants
 
 end
